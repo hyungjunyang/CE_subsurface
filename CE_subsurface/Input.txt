@@ -1,0 +1,31 @@
+-- Directory 
+/data/cees/hjyang3/PnP/Case1
+-- Grid dimension nx, ny
+55  55
+-- Boundary conditions lbc, rbc, wCond
+0.5  0  1  0.1
+-- Timestep 
+0.005  20
+-- Output time steps 
+1 5
+-- Number of Cores 
+1
+-- Channel parameters lperm, hperm, initial 
+0  6.5  MPS
+-- Number of total ensembles
+100
+-- Number of samples 
+5
+-- Observation parameters 
+11  11  11  11
+-- Number of PnP models 
+3 
+-- Data fidelity function (sigma, reg) 
+0.01  2
+-- Denoiser 
+0.4  dncnn
+-- VAE reg 
+0.3
+-- PnP algorithm parameters (rho, max_iter, tol)
+0.5  29   0.0001
+
